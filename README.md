@@ -1,2 +1,2 @@
 # curso-practico-javascript
-Curso de practico de platzi
+Curso practico de platzi
