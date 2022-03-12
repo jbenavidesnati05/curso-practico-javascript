@@ -1,0 +1,130 @@
+orge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.      
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        new file:   figuras.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   figuras.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        descuentos.html
+        descuentos.js
+
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git add .
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        new file:   descuentos.html
+        new file:   descuentos.js
+        new file:   figuras.html
+
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git commit -m "nuevo commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Jorge Benavidez@LAPTOP-3TC45J3C.(none)')
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Jorge Benavidez/curso-practico-javascript/.git/
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        new file:   descuentos.html
+        new file:   descuentos.js
+        new file:   figuras.html
+
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git commit -m "otro commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Jorge Benavidez@LAPTOP-3TC45J3C.(none)')
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git config --global user.email "jorgenati05@gmail.com"
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git config --global user.name "jbenavidesnati05"
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git commit -m "nuevo commit"
+[main bced765] nuevo commit
+ 4 files changed, 105 insertions(+)
+ create mode 100644 descuentos.html
+ create mode 100644 descuentos.js
+ create mode 100644 figuras.html
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.63 KiB | 555.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jbenavidesnati05/curso-practico-javascript.git
+   60803f5..bced765  main -> main
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Jorge Benavidez@LAPTOP-3TC45J3C MINGW64 ~/curso-practico-javascript (main)
+$
