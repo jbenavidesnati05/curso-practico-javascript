@@ -1,5 +1,6 @@
 var amigos= ["carlos", "juan", "andres","lucho"];
 
+
 document.write(amigos[0]);
 
 // cambiar el valor de un arreglo 
@@ -24,6 +25,23 @@ amigos.pop();
 
 document.write("<br>")
 document.write("el array amigos tiene " +amigos.length+ " en su lista");
+document.write("<br>");
+
+var amigos2= ["jauco", "jose", "anto","andy"];
+var amigos3= ["nacho", "yeo", "sari","ruki"];
+
+var amigos3 = amigos.concat(amigos2);
+
+document.write(amigos3);
+
+// usos de join 
+
+document.write(amigos.join(" ----Ingeniero "));
+
+// ordenar 
+
+var ordenados= amigos.reverse();
+document.write(ordenados);
 
 
  
